@@ -10,7 +10,7 @@ warnings.filterwarnings('ignore')
 
 class EnhancedDCFModel:
 
-    def __init__(self, ticker, fred_api_key=None):
+    def __init__(self, ticker, assumptions={}, fred_api_key=None):
         """
         Initialize DCF model for a given ticker.
         
